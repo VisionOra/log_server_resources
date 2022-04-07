@@ -36,7 +36,7 @@ async def get_logs():
     Returns:
         string: url logs
     """    
-    files = [i.replace(logs_path, "http://127.0.0.1:8000/GetGraph/") for i in glob.glob(f"{logs_path}*.log")]
+    files = [i.replace(logs_path, "http://159.65.147.226:8000/GetGraph/") for i in glob.glob(f"{logs_path}*.log")]
     return {"files":files}
 
 @app.get("/")
