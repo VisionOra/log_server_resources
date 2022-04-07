@@ -14,6 +14,14 @@ app = FastAPI()
 
 @app.get("/GetGraph/{file_name}", response_class=HTMLResponse)
 async def GetGraph(file_name: str):
+    """This api is to get graph html no need to use this from swagger
+
+    Args:
+        file_name (str): Name of the log file to visualise
+
+    Returns:
+        HTML: HTML of graph
+    """
     file_name = f"{logs_path}{file_name}"
     df = pd.read_csv(file_name, sep = "\t")
     df = preprocessing(df)
@@ -22,6 +30,12 @@ async def GetGraph(file_name: str):
 
 @app.get("/get_logs")
 async def get_logs():
+    """Get the URL for logs with respect to every date
+    Copy paste the url to your browser to get the logs
+
+    Returns:
+        string: url logs
+    """    
     files = [i.replace(logs_path, "http://127.0.0.1:8000/GetGraph/") for i in glob.glob(f"{logs_path}*.log")]
     return {"files":files}
 
