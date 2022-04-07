@@ -1,0 +1,87 @@
+anyio==3.5.0
+appnope==0.1.3
+asgiref==3.5.0
+asttokens==2.0.5
+attrs==21.4.0
+backcall==0.2.0
+Bottleneck @ file:///opt/concourse/worker/volumes/live/f7139d11-2eee-4f6e-48cd-73168dc9e900/volume/bottleneck_1648028909796/work
+brotlipy==0.7.0
+certifi==2021.5.30
+cffi @ file:///Users/builder/ci_310/cffi_1643393868399/work
+charset-normalizer==2.0.12
+click @ file:///opt/concourse/worker/volumes/live/2d66025a-4d79-47c4-43be-6220928b6c82/volume/click_1646056610594/work
+dash @ file:///tmp/build/80754af9/dash_1611168717544/work
+dash-core-components==1.3.1
+dash-html-components==1.0.1
+dash-renderer==1.1.2
+dash-table @ file:///Users/ktietz/demo/mc3/conda-bld/dash-table_1630660271930/work
+debugpy==1.6.0
+decorator==5.1.1
+dnspython==2.2.1
+email-validator==1.1.3
+entrypoints==0.4
+executing==0.8.3
+fastapi==0.75.1
+fastjsonschema==2.15.3
+Flask @ file:///opt/conda/conda-bld/flask_1648041541647/work
+Flask-Compress==1.5.0
+future @ file:///Users/builder/ci_310/future_1642502263251/work
+h11==0.13.0
+httptools==0.2.0
+idna==3.3
+ipykernel==6.12.1
+ipython==8.2.0
+itsdangerous @ file:///tmp/build/80754af9/itsdangerous_1621432558163/work
+jedi==0.18.1
+Jinja2 @ file:///opt/conda/conda-bld/jinja2_1647436528585/work
+jsonschema==4.4.0
+jupyter-client==7.2.2
+jupyter-core==4.9.2
+MarkupSafe @ file:///Users/builder/ci_310/markupsafe_1642534112998/work
+matplotlib-inline==0.1.3
+mkl-fft==1.3.1
+mkl-random @ file:///opt/concourse/worker/volumes/live/a9eca864-069c-4240-73c8-4e51b036a10d/volume/mkl_random_1639994047876/work
+mkl-service==2.4.0
+nbformat==5.3.0
+nest-asyncio==1.5.5
+numexpr @ file:///Users/builder/ci_310/numexpr_1642534542370/work
+numpy @ file:///opt/concourse/worker/volumes/live/ac169b17-437d-4bc4-6388-8cf92696aa55/volume/numpy_and_numpy_base_1639496871018/work
+orjson==3.6.7
+packaging @ file:///tmp/build/80754af9/packaging_1637314298585/work
+pandas==1.4.1
+parso==0.8.3
+pexpect==4.8.0
+pickleshare==0.7.5
+plotly @ file:///opt/conda/conda-bld/plotly_1646671701182/work
+prompt-toolkit==3.0.29
+psutil==5.9.0
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pydantic==1.9.0
+Pygments==2.11.2
+pyparsing @ file:///tmp/build/80754af9/pyparsing_1635766073266/work
+pyrsistent==0.18.1
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+python-dotenv==0.20.0
+python-multipart==0.0.5
+pytz==2021.3
+PyYAML==5.4.1
+pyzmq==22.3.0
+requests==2.27.1
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+sniffio==1.2.0
+stack-data==0.2.0
+starlette==0.17.1
+tenacity @ file:///Users/builder/ci_310/tenacity_1642507475848/work
+tornado==6.1
+traitlets==5.1.1
+typing_extensions==4.1.1
+ujson==4.3.0
+urllib3==1.26.9
+uvicorn==0.15.0
+uvloop==0.16.0
+watchgod==0.8.2
+wcwidth==0.2.5
+websockets==10.2
+Werkzeug @ file:///opt/conda/conda-bld/werkzeug_1645628268370/work
