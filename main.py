@@ -23,7 +23,7 @@ async def GetGraph(file_name: str):
         HTML: HTML of graph
     """
     file_name = f"{logs_path}{file_name}"
-    df = pd.read_csv(file_name, sep = "\t")
+    df = pd.read_csv(file_name, sep = "\t", error_bad_lines=None)
     df = preprocessing(df)
     return get_graph(df)
 
