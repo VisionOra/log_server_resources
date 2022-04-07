@@ -27,6 +27,6 @@ async def get_logs():
 
 @app.get("/")
 async def get_dates():
-    os.system("nohup bash get_linux_logs &")
+    os.system("nohup bash get_linux_logs.sh &")
     return {"app":"Server logs"}
 
