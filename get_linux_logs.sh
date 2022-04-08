@@ -12,8 +12,8 @@ if [ $process -gt 3 ]
 else
     # this script is only for ubuntu server
     while true; do
-        # filename
-        file_name="logs/serverLogs_$(date '+%Y_%m_%d').log"
+        # filename (Convert UTC time to PKT +5 hours)
+        file_name="logs/serverLogs_$(date -d '+5 hour' '+%Y_%m_%d').log"
         # Checking if file exists
         if [ ! -f $file_name ]; then
           # If not exists then make a file and add headers
