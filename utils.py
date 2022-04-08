@@ -40,7 +40,7 @@ def preprocessing(df):
 def get_graph(df):
     """Getting the graph accoeding to the dataframe
     """
-    to_plot = list(set(list(df.columns)) - set(["datetime ", "cores"]))
+    to_plot = list(set(list(df.columns)) - set(["datetime ", "cores", "total", "buff/cache"]))
     print(to_plot)
     fig = px.line(df, x="datetime ", y=to_plot)
     return fig.to_html()
